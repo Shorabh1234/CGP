@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "Bebas Neue Cyrillic";
+  src: url("/assets/fonts/bebasneuecyrillic.ttf");
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: url("/assets/fonts/SEGOEUI.TTF");
+}
+.font-bebas-neue {
+  font-family: "Bebas Neue Cyrillic";
+}
+.font-segoe {
+  font-family: "Segoe UI";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,18 +24,18 @@
   margin-bottom: 0;
 }
 
-.font-tomorrow{
-   font-family: Tomorrow;
+.font-tomorrow {
+  font-family: "Tomorrow", sans-serif;
 }
-.font-Bebas{
-   font-family: Bebas Neue Cyrillic;
+.pt-46 {
+  padding-top: 46px;
 }
-.pt-67 {
-   padding-top: 67px;
- }
- .pb-46 {
-   padding-bottom: 46px;
- }
+.pb-54 {
+  padding-bottom: 54px;
+}
+.pb-70{
+  padding-bottom: 70px;
+}
 /* most popular */
 .most-popular-card {
   /* max-width: 348px; */
@@ -27,17 +43,24 @@
   border: 1px solid #969696;
   border-radius: 16px;
   padding: 23px 13px;
+
 }
-.most-popular-card-text{
-width: 174px;
-line-height: 120%;
+.most-popular {
+  padding-bottom: 67px;
+}
+.most-popular-card-text {
+  line-height: 120%;
 }
 /* learn how  */
-.bg-learn{
-   background-image: url("/assets/images/png/bg_how.png");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
+.bg-learn {
+  background-image: url("/assets/images/png/bg_how.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.learn-how-card-all{
+  padding-top: 67px;
+  padding-bottom: 70px;
 }
 /* join section */
 .bg-join-section {
@@ -47,7 +70,7 @@ line-height: 120%;
   background-repeat: no-repeat;
 }
 .join-section-text {
-   font-family:Bebas Neue Cyrillic;
+  font-family: Bebas Neue Cyrillic;
   padding-top: 47px;
   padding-bottom: 38px;
 }
@@ -72,13 +95,10 @@ line-height: 120%;
   background-color: var(--color-white);
 }
 
-
-
-
 /* <api section> */
 
 .refernces {
-  font-family: Bebas Neue Cyrillic; 
+  font-family: Bebas Neue Cyrillic;
 }
 
 .logo-text-main {
@@ -112,14 +132,6 @@ line-height: 120%;
   gap: 58px;
 }
 
-
-
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
   .including-logo-main {
     flex-direction: row;
@@ -139,5 +151,4 @@ line-height: 120%;
     gap: 40px;
     padding: 0px;
   }
-
 }
