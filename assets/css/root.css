@@ -1,0 +1,88 @@
+:root {
+  --fs-s: 9px;
+  --fs-xs: 14px;
+  --fs-sm: 15px;
+  --fs-md: 16px;
+  --fs-lg: 17px;
+  --fs-xl: 20px;
+  --fs-xxl: 40px;
+  --fs-xxxl: 65px;
+
+  --color-white: #fff;
+  --color-sky-blue: #36befe;
+  --color-black: #000;
+  --color-primary: #9f9f9f;
+
+  --bg-sky-blue: #36befe;
+  --bg-spanish-grey: #34486b;
+
+  --fw-regular: 300;
+  --fw-medium: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}
+/* Font Size */
+.fs-s {
+  font-size: var(--fs-s);
+}
+.fs-xs {
+  font-size: var(--fs-xs);
+}
+.fs-sm {
+  font-size: var(--fs-sm);
+}
+.fs-md {
+  font-size: var(--fs-md);
+}
+.fs-lg {
+  font-size: var(--fs-lg);
+}
+.fs-xl {
+  font-size: var(--fs-xl);
+}
+.fs-xxl {
+  font-size: var(--fs-xxl);
+}
+.fs-xxxl {
+  font-size: var(--fs-xxxl);
+}
+/* font weight */
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+.fw-medium {
+  font-weight: var(--fw-medium);
+}
+.fw-semibold {
+  font-weight: var(--fw-semibold);
+}
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+/* color */
+.text-white {
+  color: var(--color-white);
+}
+.text-sky-blue {
+  color: var(--color-sky-blue);
+}
+.text-black {
+  color: var(--color-black);
+}
+.text-pink-red {
+  color: var(--color-pink-red);
+}
+/* background color */
+.bg-sky-blue {
+  background: var(--bg-sky-blue);
+}
+.bg-spanish-grey{
+  background: var(--bg-spanish-grey);
+}
+
+
+@media (max-width: 400px) {
+  :root {
+    --fs-xxxl: 60px;
+  }
+}
