@@ -8,6 +8,8 @@
   font-family: "Segoe UI";
   src: url("/assets/fonts/SEGOEUI.TTF");
 }
+
+
 .font-bebas-neue {
   font-family: "Bebas Neue Cyrillic";
 }
@@ -24,6 +26,7 @@
   margin-bottom: 0;
 }
 
+
 .font-tomorrow {
   font-family: "Tomorrow", sans-serif;
 }
@@ -38,7 +41,6 @@
 }
 /* most popular */
 .most-popular-card {
-  /* max-width: 348px; */
   width: 100%;
   border: 1px solid #969696;
   border-radius: 16px;
@@ -50,6 +52,19 @@
 }
 .most-popular-card-text {
   line-height: 120%;
+}
+.industry{
+  padding-top: 54px;
+}
+.mb-49{
+  padding-bottom:49px ;
+  margin-bottom: 0px;
+}
+.pt-40{
+  padding-top: 40px;
+}
+.pb-65{
+  padding-bottom: 65px;
 }
 /* learn how  */
 .bg-learn {
@@ -131,6 +146,21 @@
   flex-direction: column;
   gap: 58px;
 }
+.pt-42{
+  padding-top: 42px;
+}
+.pt-43{
+  padding-top: 43px;
+}
+.pb-57{
+  padding-bottom: 57px;
+}
+.pb-70{
+  padding-bottom: 70px;
+}
+.footer-underline{
+  text-decoration-line: underline;
+}
 
 @media screen and (max-width: 768px) {
   .including-logo-main {
@@ -141,6 +171,7 @@
     padding-bottom: 30px;
     padding-inline: 12px;
   }
+  
   .logo-main {
     flex-direction: column;
     gap: 40px;
